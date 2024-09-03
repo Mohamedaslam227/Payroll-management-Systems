@@ -576,14 +576,7 @@ class Payroll:
         self.payroll_rec.bind("<ButtonRelease-1>",Wagesinfo)
         displaydata()
        
-        #=============================================================================
-        topframe13=Frame(Tab3,bd=10,width=1340,height=100,relief=RIDGE)
-        topframe13.grid(row=0,column=0)
-        self.toptittle13=Label(topframe13, font=('stylus',40,'bold'),text="\tPAYROLL COMMENTBOOK\t",bd=10,justify=CENTER)
-        self.toptittle13.grid(row=0,column=0)
-        #==============================================================================
-        self.txtcmt=Text(topframe13,width=100,height=22,font=('stylus',14,'bold'))
-        self.txtcmt.grid(row=1,column=0)
+
         
       
 
